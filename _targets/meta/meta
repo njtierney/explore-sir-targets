@@ -1,0 +1,11 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+beta|stem|0c5fff9d2d3404d5|58aa61b7f8eb5b27|ef46db3751d8e999|-159846476||t19195.3068257193s|a96c250e4b19e03e|54|rds|local|vector|||0.001||
+explore|stem|b846e362a7c621f4|d634f67c8f1e31b2|4745aa592080ea1d|-1246299048|doc/explore.html*doc/explore.Rmd|t19195.3068405098s|0b583155f4a8e329|626899|file|local|vector|||1.303||
+gamma|stem|06392ec626414bb1|f25baeb691b22e3a|e89cd67289eddaea|1617619096||t19195.306825742s|b6d2e014b07bc296|51|rds|local|vector|||0||
+max_time|stem|9e8394bc5edaffbd|2ba5f8f1b335f55a|ef46db3751d8e999|-752449392||t19195.3068255388s|b6d2e014b07bc296|51|rds|local|vector|||0.001||
+N|stem|07d9855c3be2de6f|e797afba63c769b4|ef46db3751d8e999|-1850956989||t19195.3068257618s|b6d2e014b07bc296|51|rds|local|vector|||0||
+ode_solution|stem|c011ea4cc4b57a07|a31dbe696d03c3fa|4bcbac25430a461d|731463088||t19195.3120508412s|6db4c97ac2b8b5bd|49721|rds|local|vector|||0.028||
+R0|stem|b717663c99918e70|c665c8b50e1690e3|a91ec8dc1ee5ddbe|-1409025142||t19195.3068409307s|ded833868582137a|50|rds|local|vector|||0||
+sir|function|dd6fb696eb71cd65|||||||||||||||
+solve_rk4|function|47a66ef8d85abac4|||||||||||||||
+times|stem|cdb751dbd2bd59f6|abab7d2882eab3a8|7a70de65a55e9b67|-15851586||t19195.3068409042s|d6ce1fe0f0a203c1|3382|rds|local|vector|||0.001||

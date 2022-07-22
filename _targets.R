@@ -24,7 +24,17 @@ tar_plan(
   ode_solution = solve_rk4(
     y = c(N - 10, 10),
     times = times,
-    parms = c(beta, gamma)
+    parms = c(beta, gamma),
+    beta = beta,
+    gamma = gamma,
+    N = N
   ),
+  final_size = s_inf(R0),
+  final_prop_infected = 1 - final_size,
+  R0_grid = c(1.25, 1.5, 1.75, 2, 2.25, 2.5, 3),
+  outbreak_size = final_outbreak_size(
+    R0_grid
+  ),
+  # Up to, "Reducing R0"
   tar_render(explore, "doc/explore.Rmd")
 )

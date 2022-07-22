@@ -9,15 +9,18 @@
 #' @return
 #' @author njtierney
 #' @export
-solve_rk4 <- function(y = c(N - 10, 10), times = times, parms = c(beta, gamma)) {
+solve_rk4 <- function(y = c(N - 10, 10), times = times, parms = c(beta, gamma),
+                      beta = beta,
+                      gamma = gamma,
+                      N = N) {
   rk4(
     y = y,
     times = times,
     func = sir,
     parms = parms
-  ) %>%
-    as.data.frame() %>%
-    setNames(c("t", "S", "I")) %>%
+  ) |>
+    as_tibble() |>
+    setNames(c("t", "S", "I")) |>
     mutate(
       beta = beta,
       gama = gamma,
